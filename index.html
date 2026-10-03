@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <title>Bài 6 - Từ Vựng Minna no Nihongo - Minna no Nihongo</title>
+  <title>Bài 6 - Từ Vựng Minna no Nihongo (Đầy đủ 55 từ vựng)</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@500;600;700;800;900&family=Noto+Sans+JP:wght@500;700;900&display=swap" rel="stylesheet">
   <style>
@@ -37,7 +37,7 @@
         HỖ TRỢ PHÁT ÂM CẢ 4 ĐÁP ÁN 🔊
       </div>
       <h1 class="text-xl md:text-2xl font-black text-slate-900">Bài 6 - Từ Vựng Minna no Nihongo</h1>
-      <p class="text-xs text-slate-500 mt-1">Chạm vào bất kỳ đáp án nào (kể cả sau khi đã chọn) đều nghe được phát âm</p>
+      <p class="text-xs text-slate-500 mt-1">Đầy đủ chính xác 55 từ vựng trong file tài liệu</p>
     </div>
 
     <!-- Quiz Box -->
@@ -45,7 +45,7 @@
       <div>
         <!-- Top Bar -->
         <div class="flex justify-between items-center mb-3 text-sm font-extrabold">
-          <span id="question-index" class="text-rose-500 text-base">Câu 1 / 50</span>
+          <span id="question-index" class="text-rose-500 text-base">Câu 1 / 55</span>
           <span class="bg-slate-100 px-3.5 py-1 rounded-full text-slate-700 font-bold text-xs" id="score-counter">Điểm: 0</span>
         </div>
         
@@ -78,10 +78,10 @@
         🎉
       </div>
       <h2 class="text-2xl font-black text-slate-900 mb-2">Hoàn Thành Bài Ôn Luyện!</h2>
-      <p class="text-slate-500 text-sm mb-6">Bạn đã làm xong tất cả 50 câu hỏi từ vựng Bài 6 - Từ Vựng Minna no Nihongo.</p>
+      <p class="text-slate-500 text-sm mb-6">Bạn đã làm xong tất cả 55 câu từ vựng của bài.</p>
 
       <div class="bg-rose-50/70 border border-rose-100 rounded-3xl p-6 mb-6 max-w-xs mx-auto">
-        <div class="text-4xl font-black text-rose-600 mb-1" id="res-score">50 / 50</div>
+        <div class="text-4xl font-black text-rose-600 mb-1" id="res-score">55 / 55</div>
         <div class="text-xs font-bold text-slate-500 uppercase tracking-wider" id="res-accuracy">Chính xác 100%</div>
       </div>
 
@@ -97,7 +97,7 @@
   </div>
 
   <script>
-    const data = [{"vn": "ăn", "jp": "たべます"}, {"vn": "uống", "jp": "のみます"}, {"vn": "hút (thuốc lá)", "jp": "すいます"}, {"vn": "nhìn, xem", "jp": "みます"}, {"vn": "nghe", "jp": "ききます"}, {"vn": "đọc", "jp": "よみます"}, {"vn": "viết, vẽ", "jp": "かきます"}, {"vn": "mua", "jp": "かいます"}, {"vn": "chụp (ảnh)", "jp": "とります"}, {"vn": "làm, chơi", "jp": "します"}, {"vn": "gặp (bạn)", "jp": "あいます"}, {"vn": "bữa ăn, cơm", "jp": "ごはん"}, {"vn": "cơm sáng, bữa sáng", "jp": "あさごはん"}, {"vn": "cơm trưa, bữa trưa", "jp": "ひるごはん"}, {"vn": "cơm tối, bữa tối", "jp": "ばんごはん"}, {"vn": "bánh mì", "jp": "パン"}, {"vn": "trứng", "jp": "たまご"}, {"vn": "thịt", "jp": "にく"}, {"vn": "cá", "jp": "さかな"}, {"vn": "rau", "jp": "やさい"}, {"vn": "hoa quả, trái cây", "jp": "くだもの"}, {"vn": "nước", "jp": "みず"}, {"vn": "trà, trà xanh", "jp": "おちゃ"}, {"vn": "trà đen", "jp": "こうちゃ"}, {"vn": "sữa bò (sữa)", "jp": "ぎゅうにゅう (ミルク)"}, {"vn": "nước hoa quả", "jp": "ジュース"}, {"vn": "bia", "jp": "ビール"}, {"vn": "rượu, rượu sake", "jp": "おさけ"}, {"vn": "thuốc lá", "jp": "たばこ"}, {"vn": "thư", "jp": "てがみ"}, {"vn": "báo cáo", "jp": "レポート"}, {"vn": "ảnh", "jp": "しゃしん"}, {"vn": "băng video", "jp": "ビデオ"}, {"vn": "cửa hàng, tiệm", "jp": "みせ"}, {"vn": "vườn", "jp": "にわ"}, {"vn": "bài tập về nhà", "jp": "しゅくだい"}, {"vn": "quần vợt", "jp": "テニス"}, {"vn": "bóng đá", "jp": "サッカー"}, {"vn": "ngắm hoa anh đào", "jp": "おはなみ"}, {"vn": "cái gì, gì", "jp": "なに"}, {"vn": "cùng, cùng nhau", "jp": "いっしょに"}, {"vn": "một chút", "jp": "ちょっと"}, {"vn": "luôn luôn, lúc nào cũng", "jp": "いつも"}, {"vn": "thỉnh thoảng", "jp": "ときどき"}, {"vn": "sau đó, tiếp theo", "jp": "それから"}, {"vn": "vâng/được", "jp": "ええ"}, {"vn": "Được đấy nhỉ./Hay quá.", "jp": "いいですね"}, {"vn": "Tôi hiểu rồi./Vâng ạ.", "jp": "わかりました"}, {"vn": "Có gì đấy ạ?/Cái gì vậy?", "jp": "なんですか"}, {"vn": "Hẹn gặp lại [ngày mai]", "jp": "じゃ、また [あした]"}];
+    const data = [{"vn": "ăn", "jp": "たべます"}, {"vn": "uống", "jp": "のみます"}, {"vn": "hút [thuốc lá]", "jp": "すいます [たばこを～]"}, {"vn": "nhìn, xem", "jp": "みます"}, {"vn": "nghe", "jp": "ききます"}, {"vn": "đọc", "jp": "よみます"}, {"vn": "viết (vẽ)", "jp": "かきます"}, {"vn": "mua", "jp": "かいます"}, {"vn": "chụp [ảnh]", "jp": "とります [しゃしんを～]"}, {"vn": "làm, chơi", "jp": "します"}, {"vn": "gặp [bạn]", "jp": "あいます [ともだちに～]"}, {"vn": "bữa ăn, cơm", "jp": "ごはん"}, {"vn": "cơm sáng, bữa sáng", "jp": "あさごはん"}, {"vn": "cơm trưa, bữa trưa", "jp": "ひるごはん"}, {"vn": "cơm tối, bữa tối", "jp": "ばんごはん"}, {"vn": "bánh mì", "jp": "パン"}, {"vn": "trứng", "jp": "たまご"}, {"vn": "thịt", "jp": "にく"}, {"vn": "cá", "jp": "さかな"}, {"vn": "rau", "jp": "やさい"}, {"vn": "hoa quả, trái cây", "jp": "くだもの"}, {"vn": "nước", "jp": "みず"}, {"vn": "trà, trà xanh", "jp": "おちゃ"}, {"vn": "trà đen", "jp": "こうちゃ"}, {"vn": "sữa bò (sữa)", "jp": "ぎゅうにゅう (ミルク)"}, {"vn": "nước hoa quả", "jp": "ジュース"}, {"vn": "bia", "jp": "ビール"}, {"vn": "rượu, rượu gạo Nhật Bản", "jp": "[お]さけ"}, {"vn": "thuốc lá", "jp": "たばこ"}, {"vn": "thư", "jp": "てがみ"}, {"vn": "báo cáo", "jp": "レポート"}, {"vn": "ảnh", "jp": "しゃしん"}, {"vn": "băng video, đầu video", "jp": "ビデオ"}, {"vn": "cửa hàng, tiệm", "jp": "みせ"}, {"vn": "vườn", "jp": "にわ"}, {"vn": "bài tập về nhà (～を します：làm bài tập)", "jp": "しゅくだい"}, {"vn": "quần vợt (～を します：đánh quần vợt)", "jp": "テニス"}, {"vn": "bóng đá (～を します：chơi bóng đá)", "jp": "サッカー"}, {"vn": "(việc) ngắm hoa anh đào (～を します)", "jp": "[お]はなみ"}, {"vn": "cái gì, gì", "jp": "なに"}, {"vn": "cùng, cùng nhau", "jp": "いっしょに"}, {"vn": "một chút", "jp": "ちょっと"}, {"vn": "luôn luôn, lúc nào cũng", "jp": "いつも"}, {"vn": "thỉnh thoảng", "jp": "ときどき"}, {"vn": "sau đó, tiếp theo", "jp": "それから"}, {"vn": "vâng/được", "jp": "ええ"}, {"vn": "Được đấy nhỉ./Hay quá.", "jp": "いいですね。"}, {"vn": "Tôi hiểu rồi./Vâng ạ.", "jp": "わかりました。"}, {"vn": "Có gì đấy ạ?/Cái gì vậy?/Vâng có tôi.", "jp": "なんですか。"}, {"vn": "Hẹn gặp lại [ngày mai].", "jp": "じゃ、また [あした]。"}, {"vn": "Mexico", "jp": "メキシコ"}, {"vn": "tên bách hóa giả định", "jp": "おおさかデパート"}, {"vn": "tên nhà hàng giả định", "jp": "つるや"}, {"vn": "tên siêu thị giả định", "jp": "フランスや"}, {"vn": "tên siêu thị giả định", "jp": "まいにちや"}];
 
     let questions = [];
     let curIdx = 0;
